@@ -12,8 +12,6 @@ favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-host: 192.168.189.130
-port: 4000
 
 # ---------------- #
 #      Author      #
