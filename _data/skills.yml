@@ -1,0 +1,42 @@
+- name: 服务端开发
+  keywords:
+      - Php
+      - Python
+      - Lua
+      - C
+      - Nodejs
+      - Thinkphp
+      - Yaf
+      - Yii
+      - MVC
+      - Smarty
+
+
+- name: 开源代码
+  keywords:
+      - Discuz
+      - Dedecms
+      - Ecshop
+
+- name: 系统运维
+  keywords:
+      - Linux
+      - Nginx
+      - Shell
+
+- name: 数据库|缓存
+  keywords:
+      - Mysql
+      - Mongodb
+      - Redis
+      - Memcached
+
+- name: 前端FE
+  keywords:
+      - Html/Html5
+      - Css/Css3
+      - Javascript
+      - jQuery
+      - Bootstrap
+      - Vue
+      - AMD/CMD
