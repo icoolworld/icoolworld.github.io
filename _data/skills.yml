@@ -2,34 +2,38 @@
   keywords:
       - Php
       - Python
+      - Swoole
+      - Yaf
+      - Thinkphp
+      - Yii
+      - Symfony
+      - MVC
       - Lua
       - C
+      - Java 
       - Nodejs
-      - Thinkphp
-      - Yaf
-      - Yii
-      - MVC
-      - Smarty
 
+- name: 系统运维
+  keywords:
+      - Linux
+      - Centos 
+      - Shell
+      - Python
+
+- name: 数据库|缓存
+  keywords:
+      - Mysql
+      - Postgresql
+      - Mongodb
+      - Redis
+      - Memcached
 
 - name: 开源代码
   keywords:
       - Discuz
       - Dedecms
       - Ecshop
-
-- name: 系统运维
-  keywords:
-      - Linux
-      - Nginx
-      - Shell
-
-- name: 数据库|缓存
-  keywords:
-      - Mysql
-      - Mongodb
-      - Redis
-      - Memcached
+      - Wordpress
 
 - name: 前端FE
   keywords:
@@ -39,4 +43,5 @@
       - jQuery
       - Bootstrap
       - Vue
+      - Webpack 
       - AMD/CMD
