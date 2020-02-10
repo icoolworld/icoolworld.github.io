@@ -1,3 +1,9 @@
+---
+layout: post
+title: Postgresql安装使用
+categories: postgresql
+---
+
 ## PostgreSQL 9.6.5 Binaries - Linux64 安装
 
 ## 下载64位二进制PostgreSQL程序，免去编译过程
