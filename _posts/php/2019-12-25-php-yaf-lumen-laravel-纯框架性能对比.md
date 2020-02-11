@@ -1,7 +1,7 @@
 ---
 layout: post
 title: php-yaf-lumen-laravel纯框架性能分析对比 
-categories: docker
+categories: php
 ---
 
 ### php框架性能分析(纯框架)
