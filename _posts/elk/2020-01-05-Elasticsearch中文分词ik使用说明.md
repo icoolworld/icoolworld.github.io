@@ -28,10 +28,10 @@ NLP常见的中文分词有：结巴分词、hanlp、ik-analyzer、NLPIR等
 ```
 ./bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v6.3.0/elasticsearch-analysis-ik-7.1.0.zip
 ```
-
 ### 自定义分词、停用词
 
-vi /usr/share/elasticsearch/config/elasticsearch.yml
+> vi /usr/share/elasticsearch/config/elasticsearch.yml
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
@@ -48,16 +48,16 @@ vi /usr/share/elasticsearch/config/elasticsearch.yml
 </properties>
 ```
 
-
-
 ###　测试分词、查询等
 
 > 创建索引
+
 ```
 curl -XPUT http://localhost:9200/index
 ```
 
 > 设置mapping
+
 ```
 curl -XPOST http://localhost:9200/index/_mapping -H 'Content-Type:application/json' -d'
 {
@@ -83,6 +83,7 @@ curl -XPOST http://localhost:9200/index/_analyze -H 'Content-Type:application/js
 ```
 
 > 分词结果如下：看到　治愈、治愈系都被成功识别, 而且无意义的停用词，没有出现在结果中
+
 ```
 {
     "tokens": [
@@ -144,6 +145,7 @@ curl -XPOST http://localhost:9200/index/_create/2 -H 'Content-Type:application/j
 ```
 
 > 查询(治愈) 
+
 ```
 curl -XPOST http://localhost:9200/index/_search  -H 'Content-Type:application/json' -d'
 {
@@ -210,6 +212,7 @@ curl -XPOST http://localhost:9200/index/_search  -H 'Content-Type:application/js
 }
 ```
 > 查询(治愈系)
+
 ```
 curl -XPOST http://localhost:9200/index/_search  -H 'Content-Type:application/json' -d'
 {
@@ -224,7 +227,9 @@ curl -XPOST http://localhost:9200/index/_search  -H 'Content-Type:application/js
 }
 '
 ```
+
 > 查询结果
+
 ```
 {
     "took": 2,
@@ -274,24 +279,3 @@ curl -XPOST http://localhost:9200/index/_search  -H 'Content-Type:application/js
     }
 }
 ```
-
-### 自定义分词、停用词
-
-vi /usr/share/elasticsearch/config/elasticsearch.yml
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
-<properties>
-	<comment>IK Analyzer 扩展配置</comment>
-	<!--用户可以在这里配置自己的扩展字典 -->
-    <entry key="ext_dict">custom/custom_dict.dic</entry>
-	 <!--用户可以在这里配置自己的扩展停止词字典-->
-    <entry key="ext_stopwords">custom/stop_words.dic</entry>
- 	<!--用户可以在这里配置远程扩展字典 -->
-	<!-- <entry key="remote_ext_dict">location</entry> -->
- 	<!--用户可以在这里配置远程扩展停止词字典-->
-	<!-- <entry key="remote_ext_stopwords">http://xxx.com/xxx.dic</entry> -->
-</properties>
-```
-
-
