@@ -28,9 +28,9 @@ NLP常见的中文分词有：结巴分词、hanlp、ik-analyzer、NLPIR等
 ```
 ./bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v6.3.0/elasticsearch-analysis-ik-7.1.0.zip
 ```
-### 自定义分词、停用词
+### 自定义分词|停用词
 
-> vi /usr/share/elasticsearch/config/elasticsearch.yml
+> vi /usr/share/elasticsearch/plugins/ik/config/IKAnalyzer.cfg.xml 
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
