@@ -30,9 +30,14 @@
       - Linux
       - Centos 
       - Ubuntu 
+      - Alpine 
       - Shell
       - Nginx
       - Openrestry
+      - Redis
+      - Memcached
+      - Mysql
+      - Mongodb
 
 - name: Devops
   keywords:
@@ -55,10 +60,15 @@
       - Redis
       - Memcached
       - Elasticsearch
+      - Kafka
 
 - name: 其他
   keywords:
       - Elk日志分析
+      - CDN 
+      - 负载均衡 
+      - 高可用 
+      - 高并发 
       - Discuz
       - Dedecms
       - Ecshop
