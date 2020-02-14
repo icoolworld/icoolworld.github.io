@@ -32,13 +32,13 @@ navs:
     label: 首页
   -
     href: /categories/
-    label: 分类
-  -
-    href: /open-source/
-    label: 开源项目
+    label: 博客分类
   -
     href: /about/
-    label: 关于
+    label: 个人简历
+  -
+    href: /open-source/
+    label: My-github
 
 # ---------------- #
 #       RSS        #

@@ -1,24 +1,51 @@
-- name: 服务端开发
+- name: 熟悉的开发语言 (熟练度依次递减)
   keywords:
-      - Php
+      - PHP
+      - Golang
       - Python
-      - Swoole
-      - Yaf
-      - Thinkphp
-      - Yii
-      - Symfony
-      - MVC
+      - Shell
       - Lua
-      - C
-      - Java 
       - Nodejs
+      - Java 
+      - C
+
+- name: 熟悉的开发框架、类库
+  keywords:
+      - Yaf (php)
+      - Swoole (php)
+      - Laravel (php) 
+      - Thinkphp (php) 
+      - Symfony (php)
+      - CI (php) 
+      - Yii (php)
+      - MVC (php)
+      - gin (golang)
+      - gorm (golang)
+      - django (python)
+      - scrapy (python)
+      - pyspider (python)
 
 - name: 系统运维
   keywords:
       - Linux
       - Centos 
+      - Ubuntu 
       - Shell
-      - Python
+      - Nginx
+      - Openrestry
+
+- name: Devops
+  keywords:
+      - Gitlab
+      - Github
+      - CI/CD 
+      - 自动化部署 
+      - 代码质量检测  
+
+- name: 容器技术
+  keywords:
+      - Docker
+      - K8s 
 
 - name: 数据库|缓存
   keywords:
@@ -27,9 +54,11 @@
       - Mongodb
       - Redis
       - Memcached
+      - Elasticsearch
 
-- name: 开源代码
+- name: 其他
   keywords:
+      - Elk日志分析
       - Discuz
       - Dedecms
       - Ecshop
@@ -43,5 +72,15 @@
       - jQuery
       - Bootstrap
       - Vue
+      - ES6
       - Webpack 
       - AMD/CMD
+      - Nodejs 
+      - Npm/Yarn 
+
+- name: 新兴技术(研究、了解、应用)
+  keywords:
+      - Nlp自然语言应用(一定运用能力)
+      - 大数据分析
+      - 人工智能
+      - 区块链
