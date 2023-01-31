@@ -54,13 +54,13 @@ sudo docker exec -it gitlab vi /etc/gitlab/gitlab.rb
  gitlab_rails['smtp_enable'] = true
  gitlab_rails['smtp_address'] = "smtp.qq.com"
  gitlab_rails['smtp_port'] = 25
- gitlab_rails['smtp_user_name'] = "278767718@qq.com"
+ gitlab_rails['smtp_user_name'] = "xxx@qq.com"
  gitlab_rails['smtp_password'] = "vxkukwfjxcwobgcf"
  gitlab_rails['smtp_domain'] = "smtp.qq.com"
  gitlab_rails['smtp_authentication'] = :plain
  gitlab_rails['smtp_enable_starttls_auto'] = true
- gitlab_rails['gitlab_email_from'] = "278767718@qq.com"
- user['git_user_email'] = "278767718@qq.com"
+ gitlab_rails['gitlab_email_from'] = "xxx@qq.com"
+ user['git_user_email'] = "xxx@qq.com"
 
 vxkukwfjxcwobgcf
 lumshqswwlggbjee
